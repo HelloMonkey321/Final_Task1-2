@@ -1,4 +1,7 @@
 # Final_Task1-2  
+注：受文件大小上传限制，网盘地址中的代码和模型更加全面，代码复现请参考网盘中的内容：  
+链接：https://pan.baidu.com/s/1mb5KECrqVoAuJlmeSCGBYw?pwd=12jm   
+提取码：12jm   
    本文使用了SimCLR（A Simple Framework for Contrastive Learning of Visual Representations）作为自监督学习算法，用于构建图像表示模型。为实现SimCLR模型，本文采用了经典的ResNet-18网络架构作为基础，以便从图像中提取特征。  
 本文SimCLR的实现分为以下几个关键步骤：  
 （1）数据预处理：在get_aug函数中，定义了数据增强的方式，包括随机裁剪、水平翻转、颜色抖动等，用于增加数据的多样性。  
